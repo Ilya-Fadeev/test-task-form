@@ -279,6 +279,12 @@ body::after {
 }
 */
 
+.form__title {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
 .form__body {
   margin-top: 30px;
   display: -webkit-box;

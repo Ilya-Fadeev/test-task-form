@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221115141947">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="form__container form">
+				<form class="form__body" data-dev data-popup-message="#popup">
+					<label class="form__input-name">
+						<input required type="tel" placeholder="Ваш телефон*">
+						<div></div>
+					</label>
+					<label class="form__button">
+						<i class="fa-regular fa-star"></i>
+						<button type="submit">Заказать</button>
+						<div></div>
+					</label>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					Cпасибо за заявку, менеджер Вам перезвонит в ближайшее время
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20221115141947"></script>
+	<script src="https://kit.fontawesome.com/4ea10c8c91.js?_v=20221115141947" crossorigin="anonymous"></script>
+</body>
+
+</html>
